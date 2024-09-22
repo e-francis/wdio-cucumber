@@ -1,0 +1,9 @@
+{
+    "mobileNumber": "08995510345",
+    "pin": "1231",
+    "otp": "123456",
+    "invalidPin": "0000",
+    "invalidOtp": "000000",
+    "paymentPhoneNumber": "08179128637",
+    "amount": "500"
+}

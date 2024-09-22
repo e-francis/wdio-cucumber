@@ -1,0 +1,56 @@
+{
+    "commonElements": {
+        "skipButton": "//XCUIElementTypeStaticText[@name=\"Skip\"]",
+        "grantPermissionButton": "",
+        "allowButton": "",
+        "signInButton": "//XCUIElementTypeStaticText[@name=\"Have an account? Sign in\"]",
+        "launchText": "",
+        "unlinkDeviceButton": "~Unlink",
+        "inputField": "android=new UiSelector().className(\"android.widget.EditText\")",
+        "okButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)"
+    },
+    "pinElements": {
+        "inputOne": "",
+        "inputTwo": "",
+        "inputThree": "",
+        "inputFour": ""
+    },
+    "otpElelments": {
+        "inputOne": "",
+        "inputTwo": "",
+        "inputThree": "",
+        "inputFour": "",
+        "inputFive": "",
+        "inputSix": "",
+        "otpField": ""
+    },
+    "onboardingElements": {
+        "createNewAccountButton": ""
+    },
+    "signInElements": {
+        "signInButton": "//XCUIElementTypeButton[@name=\"Sign in\"]",
+        "mobileNumberInputfield": "//XCUIElementTypeTextField[@value=\"xxxxxxxxxxxx\"]",
+        "pinInputfield": "//XCUIElementTypeSecureTextField",
+        "checkBox": "",
+        "continueButton": "",
+        "notNowButton": "",
+        "homeScreenText": "",
+        "otpScreenText": ""
+    },
+    "paymentsElements": {
+        "paymentNavButton": "android=new UiSelector().text(\"Payments\").instance(1)",
+        "paymentsText": "android=new UiSelector().text(\"Payments\").instance(0)",
+        "airtimeAndDataElements": {
+            "airtimeAndDataButton": "android=new UiSelector().text(\"Airtime/Data\")",
+            "phoneNumberInputField": "android=new UiSelector().className(\"android.widget.EditText\")",
+            "proceedButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+            "customAmountButton": "android=new UiSelector().className(\"android.widget.Button\").instance(2)",
+            "customAmountField": "android=new UiSelector().text(\"0.00\")",
+            "proceedButton2": "android=new UiSelector().className(\"android.widget.Button\").instance(2)",
+            "reviewDetailstext": "android= new UiSelector().text(\"Review details\")",
+            "securePaymentButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+            "invalidOtpText": "android=new UiSelector().text(\"OTP validation failed\")",
+            "invalidPinText": "android=new UiSelector().text(\"Invalid pin\")"
+        }
+    }
+}

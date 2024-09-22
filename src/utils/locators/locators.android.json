@@ -1,0 +1,67 @@
+{
+    "commonElements": {
+        "skipButton": "android=new UiSelector().className(\"android.widget.Button\")",
+        "grantPermissionButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+        "allowButton": "android=new UiSelector().resourceId(\"com.android.permissioncontroller:id/permission_allow_button\")",
+        "signInButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+        "launchText": "android=new UiSelector().text(\"Visa Debit card with 1% Cashback\")",
+        "unlinkDeviceButton": "android=new UiSelector().text(\"Unlink Device\")",
+        "inputField": "android=new UiSelector().className(\"android.widget.EditText\")",
+        "okButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)"
+    },
+    "pinElements": {
+        "inputOne": "android=new UiSelector().text(\"─\").instance(0)",
+        "inputTwo": "android=new UiSelector().text(\"─\").instance(1)",
+        "inputThree": "android=new UiSelector().text(\"─\").instance(2)",
+        "inputFour": "android=new UiSelector().text(\"─\").instance(3)"
+    },
+    "otpElements": {
+        "inputOne": "android=new UiSelector().text(\"─\").instance(0)",
+        "inputTwo": "android=new UiSelector().text(\"─\").instance(1)",
+        "inputThree": "android=new UiSelector().text(\"─\").instance(2)",
+        "inputFour": "android=new UiSelector().text(\"─\").instance(3)",
+        "inputFive": "android=new UiSelector().text(\"─\").instance(4)",
+        "inputSix": "android=new UiSelector().text(\"─\").instance(5)",
+        "otpField": "//android.widget.EditText"
+    },
+    "onboardingElements": {
+        "createNewAccountButton": "android=new UiSelector().className(\"android.widget.Button\").instance(0)",
+        "firstNameInputField": "android=new UiSelector().text(\"Firstname\")",
+        "lastNameInputField": "android=new UiSelector().text(\"Lastname\")",
+        "emailInputField": "android=new UiSelector().text(\"name@domain.com\")",
+        "genderDropDownMenu": "android=new UiSelector().className(\"android.widget.EditText\").instance(3)",
+        "selectMaleGender": "android=new UiSelector().text(\"Male\")",
+        "selectFemaleGender": "android=new UiSelector().text(\"Female\")",
+        "nationalityDropDownMenu": "android=",
+        "searchBox": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+        "selectNationality": "android=",
+        "continueButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+        "proceedBuuton": "android=new UiSelector().className(\"android.widget.Button\")"
+    },
+    "signInElements": {
+        "signInButton": "android=new UiSelector().className(\"android.widget.Button\").instance(3)",
+        "mobileNumberInputfield": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+        "pinInputfield": "android=new UiSelector().className(\"android.widget.EditText\").instance(1)",
+        "checkBox": "android=new UiSelector().className(\"android.widget.CheckBox\")",
+        "continueButton": "android=new UiSelector().className(\"android.widget.Button\")",
+        "notNowButton": "android=new UiSelector().className(\"android.widget.Button\").instance(2)",
+        "homeScreenText": "android=new UiSelector().text(\"Main Account Balance\")",
+        "otpScreenText": "android=new UiSelector().text(\"Enter OTP code to verify\")"
+    },
+    "paymentsElements": {
+        "paymentNavButton": "android=new UiSelector().text(\"Payments\").instance(1)",
+        "paymentsText": "android=new UiSelector().text(\"Payments\").instance(0)",
+        "airtimeAndDataElements": {
+            "airtimeAndDataButton": "android=new UiSelector().text(\"Airtime/Data\")",
+            "phoneNumberInputField": "android=new UiSelector().className(\"android.widget.EditText\")",
+            "proceedButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+            "customAmountButton": "android=new UiSelector().className(\"android.widget.Button\").instance(2)",
+            "customAmountField": "android=new UiSelector().text(\"0.00\")",
+            "proceedButton2": "android=new UiSelector().className(\"android.widget.Button\").instance(2)",
+            "reviewDetailstext": "android= new UiSelector().text(\"Review details\")",
+            "securePaymentButton": "android=new UiSelector().className(\"android.widget.Button\").instance(1)",
+            "invalidOtpText": "android=new UiSelector().text(\"OTP validation failed\")",
+            "invalidPinText": "android=new UiSelector().text(\"Invalid pin\")"
+        }
+    }
+}
